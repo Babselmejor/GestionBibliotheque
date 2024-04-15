@@ -305,7 +305,7 @@ public class GererLivres extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4MouseClicked
 
     private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
-        AfficherDetailsLivre recherche = new AfficherDetailsLivre();
+        RechercherLivres recherche = new RechercherLivres();
         recherche.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton5MouseClicked

@@ -2,9 +2,9 @@ package biblio;
 
 import javax.swing.JOptionPane;
 
-public class AfficherDetailsLivre extends javax.swing.JFrame {
+public class RechercherLivres extends javax.swing.JFrame {
 
-    public AfficherDetailsLivre() {
+    public RechercherLivres () {
         initComponents();
     }
 
@@ -202,7 +202,7 @@ public class AfficherDetailsLivre extends javax.swing.JFrame {
         
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new AfficherDetailsLivre().setVisible(true);
+                new RechercherLivres().setVisible(true);
             }
         });
     }
